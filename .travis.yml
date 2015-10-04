@@ -1,0 +1,10 @@
+language: android
+jdk: oraclejdk8
+deploy:
+  provider: releases
+  api_key:
+    secure: EDL15h8OMebGmTHeKSCBDa++c7eMyot1lpmq6b5/qUHrrNs4uP71faNDtjHmHXvxt7u7d+hdEi28Y3ruW98XDopW993tdwmRIQedYmgW4usqFRuyy8OKOjbiu40KqIm1+KEOkRaPEz2YDYapGRp/+gNgr7wZyb1hwf/AjeuYBF/rpLnNPmi8NbSqkK7lYAED5MEhnqMyBkDvNEkUsvTPMZX573V3mGGTAg4PWpNlC/ATw6e0+3AYKg/mNAW1lfD3IRsmRrg3A8Rln5MUf8Zmx1SuzzBZMEgowXeLVLLHRHUbfVbzwVu4avqygylv1PPulAviPyhIO21pGuYJ6uhjZkihphsoRQkXW6WQI4fhnOFDAVX1fKfOMp0t6wun/JtIHsX8U6ge8NSHFnoVj7qIrJnZQFFFVp3qwXjdp38+mlzwvwwTKJJSEaO6Z55CN3aIVjQWeeGp83aw/WO7hpMpfS1T6sTxfqMyybCASB5dMYP1M70Pb7DnvbGUQ2g3k083Fs+s15NJKIKBLSt5kJ9h2oOYu0/qqX2+OwM7sRVHmdwpPhNNSFx7iuZq5QpWagxc2X/MRamN4ZYpuG6HkVGVzFSy4H8PAmMOZFXZBv35RhgnNwZqznKt/PlvqCHZ9znka9nc2bjCE9l+iIShJeJKVE2LFIiB4Fr8CmKRBS5zX88=
+  file: target/gnuob-android.apk
+  skip_cleanup: true
+  on:
+    tags: true    

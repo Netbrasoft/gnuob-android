@@ -53,9 +53,6 @@
 					<version>${android.plugin.version}</version>
 					<extensions>true</extensions>
 					<configuration>
-						<sign>
-							<debug>both</debug>
-						</sign>
 						<assetsDirectory>${basedir}/assets</assetsDirectory>
 						<resourceDirectory>${basedir}/res</resourceDirectory>
 						<androidManifestFile>${basedir}/AndroidManifest.xml</androidManifestFile>
